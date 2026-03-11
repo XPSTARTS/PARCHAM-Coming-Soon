@@ -38,7 +38,7 @@ function Tile({
 }
 
 export default function Countdown() {
-  const target = useMemo(() => new Date("2026-03-25T00:00:00+05:00"), []);
+  const target = useMemo(() => new Date("2026-04-01T00:00:00+05:00"), []);
   const [t, setT] = useState(() => getTimeLeft(target));
 
   useEffect(() => {

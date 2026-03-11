@@ -146,7 +146,7 @@ export default function Page() {
                       Launching
                     </div>
                     <div className="mt-2 font-[family-name:var(--font-space)] text-2xl font-bold tracking-tight">
-                      25 March 2026 <span className="text-[#5B5B5B]">(PKT)</span>
+                      1 April 2026 <span className="text-[#5B5B5B]">(PKT)</span>
                     </div>
                   </div>
                   <div className="h-10 w-10 rounded-2xl border border-[#E6E0D6] bg-white/60" />
