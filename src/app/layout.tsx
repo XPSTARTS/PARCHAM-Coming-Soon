@@ -19,7 +19,7 @@ const urdu = Noto_Nastaliq_Urdu({
 export const metadata: Metadata = {
   title: "PARCHAM — Coming Soon",
   description: "Street. Formal. PARCHAM. Launching 25 March 2026.",
-  robots: { index: false, follow: false }, // coming soon pages usually noindex
+  robots: { index: true, follow: true }
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
